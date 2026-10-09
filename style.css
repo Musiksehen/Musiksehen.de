@@ -35,3 +35,25 @@ footer{padding:45px 0}.small{font-size:.86rem;opacity:.75}.coming{opacity:.88}.c
 .platforms{display:flex;flex-wrap:wrap;gap:11px;margin-top:24px}
 .platforms a{display:inline-block;padding:11px 15px;border:1px solid currentColor;color:inherit;text-decoration:none;font-weight:700;font-size:.86rem}
 @media(max-width:760px){.detail{grid-template-columns:1fr}.platforms a{flex:1 1 42%;text-align:center}}
+
+
+/* Sinnflut-inspired site-wide palette: original artwork remains untouched */
+:root{--ink:#eadbc4;--paper:#0b1420;--sun:#bda582;--night:#181a32;--line:rgba(190,164,128,.29)}
+body{background:radial-gradient(ellipse at 85% 8%,rgba(85,42,102,.28),transparent 38%),radial-gradient(ellipse at 12% 44%,rgba(19,70,109,.24),transparent 42%),#0b1420;color:var(--ink)}
+body:before{opacity:.16;background-image:repeating-linear-gradient(0deg,rgba(210,183,143,.13) 0,rgba(210,183,143,.13) 1px,transparent 1px,transparent 5px);mix-blend-mode:screen}
+.top{background:rgba(9,17,29,.94);border-bottom:1px solid var(--line)}
+.brand{color:#e8d4b4}.links a{color:#e8d4b4}.links a:hover,.breadcrumb a:hover{color:#d8b785}
+.hero{background-image:linear-gradient(180deg,rgba(5,11,20,.25),rgba(9,12,28,.55)),url("assets/hero.jpg")}
+.hero-card{background:rgba(10,19,33,.88);border:1px solid rgba(198,170,128,.55);box-shadow:0 18px 60px rgba(0,0,0,.5);color:#f0dfc7}
+h1,h2,h3{color:#f0dfc7}h1{letter-spacing:.05em;text-shadow:0 2px 18px rgba(5,8,16,.5)}
+.eyebrow{color:#c5a77c}
+.card{background:linear-gradient(145deg,rgba(32,40,66,.75),rgba(17,25,40,.9));border:1px solid rgba(190,164,128,.33);box-shadow:0 10px 30px rgba(0,0,0,.16)}
+.card img{border:1px solid rgba(190,164,128,.22)}
+.btn{border-color:#c8ac82;color:#ead7b9;transition:background .2s,color .2s,border-color .2s}
+.btn:hover{background:#c8ac82;color:#101826}
+.release{background:radial-gradient(ellipse at 85% 20%,rgba(96,51,112,.46),transparent 55%),linear-gradient(135deg,#102d48,#21182f 80%);color:#eadbc4}
+.release .btn{border-color:#c8ac82;color:#eadbc4}.release .btn:hover{background:#c8ac82;color:#101826}
+.book img,.detail>img{box-shadow:0 14px 38px rgba(0,0,0,.45);border:1px solid rgba(190,164,128,.32)}
+.platforms a{border-color:rgba(200,172,130,.65);color:#eadbc4}
+.platforms a:hover{background:#c8ac82;color:#101826}
+footer{background:rgba(6,12,22,.42)}
